@@ -1,0 +1,38 @@
+{
+  "name": "sugarcrm/rest-php-client",
+  "description": "An SDK for interacting with Sugar's REST v10 API.",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Mike Russell",
+      "email": "mrussell@sugarcrm.com",
+      "role": "Developer"
+    }
+  ],
+  "keywords": [
+    "sugarcrm",
+    "sugar",
+    "crm",
+    "rest",
+    "sdk",
+    "v10",
+    "api"
+  ],
+  "require": {
+    "php": ">=5.3.0",
+    "michaelj2324/php-rest-client": "~1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0|~5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Sugarcrm\\REST\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Sugarcrm\\REST\\Tests\\": "tests/"
+    }
+  }
+}
