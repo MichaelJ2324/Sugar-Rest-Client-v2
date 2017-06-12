@@ -1,6 +1,6 @@
 {
-  "name": "sugarcrm/rest-php-client",
-  "description": "An SDK for interacting with Sugar's REST v10 API.",
+  "name": "sugarcrm/php-rest-client-v2",
+  "description": "An Object Oriented Framework for working with the Sugar REST Api",
   "license": "Apache-2.0",
   "authors": [
     {
@@ -16,7 +16,11 @@
     "rest",
     "sdk",
     "v10",
-    "api"
+    "api",
+    "v2",
+    "2.0",
+    "model",
+    "collection"
   ],
   "require": {
     "php": ">=5.3.0",
